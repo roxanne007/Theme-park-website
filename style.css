@@ -1,0 +1,274 @@
+/*--------CSS General-------------*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+  }
+  
+  /*-----------Header Notices with Rotation------------*/
+  .header__notices {
+    background: #c0c0c0;
+    color: white;
+    font-weight: 600;
+    font-size: 13px;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    height: 30px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .header__notices span {
+    display: inline-block;
+    padding-left: 100%;
+    animation: scroll-left 15s linear infinite;
+  }
+  
+  @keyframes scroll-left {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  /*-----------Navigation------------*/
+  nav {
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 40px;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  nav img {
+    width: 150px;
+  }
+  
+  .nav-links {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .nav-links ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .nav-links ul li {
+    padding: 8px 12px;
+    position: relative;
+  }
+  
+  .nav-links ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+  }
+  
+  .nav-links ul li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #ADD8E6;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+  }
+  
+  .nav-links ul li:hover::after {
+    width: 100%;
+  }
+  
+  /*-----------Hero Section------------*/
+  .hero {
+    position: relative;
+    height: 60vh;
+    background: url('img/activity3.png') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+  }
+  
+  /* Overlay to darken the image */
+  .hero::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4); /* adjust for desired dimness */
+    z-index: 0;
+  }
+  
+  .hero-content {
+    position: relative;
+    z-index: 1;
+    padding: 30px;
+    color: white;
+  }
+  
+  .hero-content h1 {
+    font-size: 60px;
+    margin: 0;
+    letter-spacing: 2px;
+    font-weight: 700;
+    color: #fff;
+  }
+  
+  .hero-content p {
+    max-width: 600px;
+    margin: 20px auto;
+    font-size: 18px;
+  }
+  
+  
+  /*-----------Buttons------------*/
+  .hero-btn {
+    background-color: #00BFFF;
+    padding: 10px 25px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  
+  .hero-btn:hover {
+    background-color: #f44336;
+    transition: 0.3s;
+  }
+  
+  /*-----------CTA Section------------*/
+  .cta {
+    margin: 60px auto;
+    width: 60%;
+    padding: 60px 40px;
+    background: transparent;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .cta h1 {
+    font-size: 36px;
+    color: #000;
+    margin-bottom: 20px;
+  }
+  
+  /*-----------Map Section------------*/
+  .map {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .map img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 10px;
+    margin: 20px auto;
+  }
+  
+  /*-----------Testimonial Section (Attractions Page)------------*/
+  .testimonials {
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .testimonial-col {
+    display: inline-block;
+    width: 280px;
+    margin: 0 20px;
+    vertical-align: top;
+    text-align: center;
+  }
+  
+  .testimonial-col img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto 10px;
+  }
+  
+  .testimonial-col h3 {
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .testimonial-col p {
+    margin: 10px 0;
+  }
+  
+  .testimonial-col .stars {
+    color: gold;
+    font-size: 16px;
+  }
+  
+  /*-----------Footer------------*/
+  .footer {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 2.5rem;
+    text-align: center;
+  }
+  
+  .footer img {
+    width: 100px;
+    margin-bottom: 20px;
+  }
+  
+  .footer__social {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    gap: 10px;
+  }
+  
+  .footer__social a {
+    color: white;
+    margin: 0 8px;
+    font-size: 20px;
+  }
+  
+  .footer__links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .footer__links a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .footer p {
+    margin-top: 10px;
+  }
+  
+  .footer__copyright {
+    font-size: 14px;
+    color: #ccc;
+    margin-top: 15px;
+  }
+  
