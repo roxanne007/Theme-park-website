@@ -1,6 +1,7 @@
-# 🎢 Theme Park Website
+# 🎢 Frozen Sahara Theme Park Website
 
-A colourful, responsive single-page website for a fictional theme park. This project was designed to showcase my front-end development and design skills using HTML and CSS.
+Welcome to the **Frozen Sahara** Theme Park Website! This project is a responsive and engaging website designed to showcase attractions, location info, and essential details for visitors interested in exploring the Frozen Sahara experience.
+
 
 ---
 
@@ -24,25 +25,32 @@ A colourful, responsive single-page website for a fictional theme park. This pro
 
 - HTML5
 - CSS3
-- Flexbox and media queries for responsiveness
+- Google Fonts
+- Font Awesome Icons
 
 ---
 
 ## ✨ Features
 
-- Clean and colourful layout
-- Responsive design across devices
-- Interactive hover effects
-- Sectioned content layout (home, rides, contact)
+- 🔥 Hero banner with rotating notices
+- 🗺️ Integrated Google Map
+- 📷 Attraction showcase with responsive images
+- 📅 Trip planning with a date selector (planned)
+- 📱 Fully responsive layout
+- 🎨 Styled using CSS and Google Fonts (Poppins)
 
 ---
 
 ## 📁 Folder Structure
 
-Theme-Park-website/
-├── index.html
-├── style.css
-└── images/
+Frozen-Sahara/
+│
+├── index.html # Home page
+├── visitus.html # Visit Us page with map and reviews
+├── attractions.html # Attractions and park info
+├── style.css # Shared stylesheet across all pages
+├── /img/ # All images used in the site
+├── README.md # Project documentation
 
 
 ---
