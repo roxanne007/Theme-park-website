@@ -7,17 +7,11 @@ Welcome to the **Frozen Sahara** Theme Park Website! This project is a responsiv
 
 ## 📸 Screenshot
 
-![Theme Park Screenshot](https://user-images.githubusercontent.com/your-image-url.png)
-
-> Replace this with a real screenshot once you upload one to GitHub or embed it
 
 ---
 
 ## 🌐 Live Demo
-
-[Visit the Site](https://roxanne007.github.io/Theme-Park-website/)
-
-> If not deployed yet, follow the instructions below 👇
+https://roxanne007.github.io/Theme-park-website/
 
 ---
 
