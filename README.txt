@@ -3,13 +3,6 @@
 Welcome to the **Frozen Sahara** Theme Park Website! This project is a responsive and engaging website designed to showcase attractions, location info, and essential details for visitors interested in exploring the Frozen Sahara experience.
 
 
----
-
-## 📸 Screenshot
-
-
----
-
 ## 🌐 Live Demo
 https://roxanne007.github.io/Theme-park-website/
 
